@@ -5,7 +5,7 @@ import multiprocessing as mp
 from gc import collect
 from time import time
 
-public = "./data/"
+public = "stdmahjong/data/"
 
 winds = {"东": 0, "南": 1, "西": 2, "北": 3}
 ttile = {"W": -1, "T": 8, "B": 17, "F": 26, "J": 30, "H": 34}
