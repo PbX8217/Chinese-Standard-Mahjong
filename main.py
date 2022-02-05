@@ -4,8 +4,8 @@ import torch, torch.nn as nn
 from torch.nn.functional import softmax
 from MahjongGB import MahjongFanCalculator
 
-path = ""
-bot = "mybot.pth"
+path = "data/stdmahjong/"
+bot = "mybot"
 dev = "cuda" if torch.cuda.is_available() else "cpu"
 
 
